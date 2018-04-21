@@ -1,3 +1,100 @@
 body {
     background: orange;
 }
+
+.navbar {
+    background: yellow;
+}
+
+.navbar-brand {
+    padding: 15px;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+.navbutt {
+    color: green;
+}
+
+.navbutt:hover {
+    color: yellow;
+    background: black;
+}
+
+.main-section {
+    background: pink;
+    padding: 20px;
+}
+
+.main-section h3 {
+    background: #c59e9e;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.main-section img {
+    margin: auto;
+    display: block;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.caption {
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    width: 100%;
+    background: rgba(158,158,158,0.8);
+}
+
+.with-margin {
+    margin-bottom: 15px;
+}
+
+input[type=text] {
+    width: 90%;
+ }
+
+ input[type=email] {
+    width: 90%;
+ }
+
+ textarea[id=message] {
+    width: 90%;
+ }

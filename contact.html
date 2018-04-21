@@ -3,42 +3,43 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Contact | Your Name</title>
+  <title>Hideous Tyranids Fanpage</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-
+    
 <body>
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+  <br>
+  <div class="container">
+    <div class="row navbar">
+      <div class="col-lg-5 bg-danger text-center md-auto" id="title"><span class="navbar-brand mb-0 h1">The Tyranids are Attacking!</span></div>
+      <div class="col-md-3"></div>
+      <div class="col-md-1 text-center"><a href="index.html" class="navbutt">Overview</a></div>
+      <div class="col-md-1 text-center"><a href="portfolio.html" class="navbutt">Gallery</a></div>
+      <div class="col-md-1 text-center"><a href="contact.html" class="navbutt">Support</a></div>
+      <div class="col-md-1"></div>
     </div>
-  </header>
 
-  <div id="main-container" class="container">
+    <br>
     <section class="main-section">
-      <h1>Contact</h1>
+      <div class='row'>
+        <h3><div class="col-md-1">Support</div></h3>
+      </div>
 
       <form id="contact-form">
         <ul>
           <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+            <div class="row"><label for="name">Name</label></div>
+            <div class="row with-margin"><input type="text" id="name" name="name" placeholder="Supplicant" required="required"></div>
           </li>
           <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+            <div class="row"><label for="email">Email</label></div>
+            <div class="row with-margin"><input type="email" id="email" name="email" placeholder="biomass@food.com" required="required"></div>
           </li>
           <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
+            <div class="row"><label for="message">Message</label></div>
+            <div class="row with-margin"><textarea id="message" name="message" placeholder="Is my planet next?" required="required"></textarea></div>
           </li>
         </ul>
         <input type="submit">
@@ -48,9 +49,9 @@
 
   </div>
 
-  <footer>
-    <div class="container">
-      Copyright &copy; 
+  <footer class="page-footer">
+    <div class="container-fluid text-center footer-copyright py-3">
+      &copy; Hive Fleet Kraken      
     </div>
   </footer>
 </body>
